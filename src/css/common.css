@@ -32,6 +32,20 @@ button:focus {
   box-shadow: 2px 2px 2px 1px rgba(106, 106, 109, 0.2);
 }
 
+
+[data-days],
+[data-hours],
+[data-minutes],
+[data-seconds] {
+  font-size: 50px; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: #333; /* Change the color as needed */
+  margin-right: 5px; /* Adjust spacing between digits */
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
 input {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -50,5 +64,6 @@ span {
 }
 
 .field {
-  padding-right: 10px;
+  padding-right: 42px;
+  border: 1px;
 }
